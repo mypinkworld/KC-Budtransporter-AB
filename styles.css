@@ -41,10 +41,28 @@ nav p:hover {
     background-color: #fff; 
 }
 
+.main-content {
+    margin-bottom: 30px; /* Lägg till detta för att skapa utrymme mellan innehållet och footern */
+}
+
 .content-text {
     max-width: 1200px; 
     margin: 0 auto;
     padding: 0 50px; 
+}
+
+.content-image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+
+.content-image {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
 }
 
 button {
@@ -74,14 +92,14 @@ button {
     margin: 20px auto;
 }
 
-footer {
-    background-color: #f4f4f4;
-    color: #000000;
+.sticky-footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #651616;
+    color: #d5cbcb;    background-color: #f4f4f4;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
     width: 100%;
-    bottom: 0;
 }
 
 .footer-content {
@@ -90,7 +108,7 @@ footer {
     align-items: center;
     max-width: 1200px; /* Justera efter behov */
     margin: 0 auto;
-    padding: 0 300px; /* Lägg till lite padding på sidorna */
+    padding: 0 200px; /* Lägg till lite padding på sidorna */
 }
 
 .footer-logos {
@@ -101,7 +119,6 @@ footer {
 .footer-logo {
     width: 50px;
     height: auto;
-    margin: 0 10px;
 }
 
 .footer-logo.flip {
