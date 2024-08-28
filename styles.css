@@ -21,15 +21,28 @@ nav p {
     color: #000000;
     margin: 0 15px;
     cursor: pointer;
-    border-bottom: 2px solid transparent;  
-    transition: transform 0.3s ease, border-bottom 0.3s ease;  
     font-size: 20px;
+    position: relative;
+    padding-bottom: 5px; /* Skapa utrymme för strecket (bilden) under texten */
 }
 
-nav p:hover {
-    color: #CC0000;
-    transform: translateY(-3px);  
-    border-bottom: 2px solid #CC0000;  
+
+nav p::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 100px; 
+    height: 3px; 
+    background-image: url('images/kc-streck.gif'); 
+    background-size: cover; 
+    opacity: 0; /* Bilden börjar osynlig */
+    transition: opacity 0.3s ease; /* Gör att bilden tonar in när du hovrar */
+}
+
+nav p:hover::after {
+    opacity: 1;
 }
 
 .content-box {
