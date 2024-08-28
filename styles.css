@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav p {
+    color: #000000;
+    margin: 0 15px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;  
+    transition: transform 0.3s ease, border-bottom 0.3s ease;  
+}
+
+nav p:hover {
+    transform: translateY(-3px);  
+    border-bottom: 2px solid #F26739;  
+}
+/* bilderna och footern */
+
+/* symbolen */
+.header-logotype {
+    width: 50px;
+    height: auto; 
+    display: block;
+    margin: 20px auto;
+}
+/* texten */
+.header-logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+footer {
+    background-color: #fdfdfd;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Justera efter behov */
+    margin: 0 auto;
+    padding: 0 300px; /* Lägg till lite padding på sidorna */
+}
+
+.footer-logos {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.footer-logo.flip {
+    transform: rotate(180deg);
+}
+
+.footer-text {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.footer-text p {
+    margin: 5px 0;
+}
