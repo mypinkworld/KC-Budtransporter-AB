@@ -42,7 +42,7 @@ nav p:hover {
 }
 
 .main-content {
-    margin-bottom: 30px; /* Lägg till detta för att skapa utrymme mellan innehållet och footern */
+    margin-bottom: 30px;
 }
 
 .content-text {
@@ -76,6 +76,37 @@ button {
 }
 
 /* bilderna och footern */
+
+.content-text-second {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px; /* Lägger till ett mellanrum mellan boxarna */
+}
+
+.content-box-image {
+    flex: 1 1 15%; 
+    margin: 10px;
+    max-width: 45%; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(23, 19, 19, 0.642);
+    border-radius: 8px;
+    background-color: #fff;
+}
+.second-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
 
 /* symbolen */
 .header-logotype {
@@ -132,4 +163,11 @@ button {
 
 .footer-text p {
     margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+    .content-box-image {
+        flex: 1 1 100%; /* Låter elementen sträcka sig över hela bredden på små skärmar */
+        max-width: 100%;
+    }
 }
