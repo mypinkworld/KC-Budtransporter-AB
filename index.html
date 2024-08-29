@@ -10,14 +10,22 @@
     <img class="header-logotype" src="images/kc-logotype.gif" alt="Logo">
     <img class="header-logo" src="images/kc-logo.gif" alt="Logotype">
 
-    <nav>
-                <p> Hem </p>
-                <p> Services </p>
-                <p> Kontakta </p>
-                <p> Våra bilar </p>
-                <p> Priser </p>
-                <p> Om oss </p>
+    <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
+
+    <nav class="nav-menu">
+        <p>Hem</p>
+        <p>Services</p>
+        <p>Kontakta</p>
+        <p>Våra bilar</p>
+        <p>Priser</p>
+        <p>Om oss</p>
     </nav>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.nav-menu');
+            menu.classList.toggle('open');
+        }
+    </script>
         <div class="main-content">
     <div class="content-box">
     <p>Vi är ett familjeföretag som erbjuder budtransporter i hela Sverige. Vi har lång erfarenhet och kan garantera att ditt gods kommer fram i tid och i oskadat skick.</p>

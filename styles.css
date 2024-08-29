@@ -178,10 +178,38 @@ h2 {
     margin: 5px 0;
 }
 
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
 @media (max-width: 768px) {
     .content-box-image {
         flex: 1 1 100%; /* Låter elementen sträcka sig över hela bredden på små skärmar */
         max-width: 100%;
+    }
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hamburger-menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        margin: 10px;
+        color: #CC0000;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        
+    }
+
+    .nav-menu.open {
+        display: flex;
     }
 }
     @media (max-width: 375px) {
