@@ -53,7 +53,7 @@ nav p:hover::after {
 .content-box {
     padding: 20px;
     background-color: #fff;
-    width: 80%;
+    width: 60%;
     max-width: 1000px;
     box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -65,7 +65,7 @@ nav p:hover::after {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 20px;
+    gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
     width: 75%;
@@ -75,7 +75,7 @@ nav p:hover::after {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 200px; /* Justera storleken efter behov */
+    width: 250px; /* Justera storleken efter behov */
     height: auto;
 }
 
@@ -129,7 +129,7 @@ h2 {
 }
 /* symbolen */
 .header-logotype {
-    width: 60px;
+    width: 75px;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -137,7 +137,7 @@ h2 {
 
 /* texten */
 .header-logo {
-    width: 220px;
+    width: 300px;
     height: auto;
     display: block;
     margin: 20px auto;
