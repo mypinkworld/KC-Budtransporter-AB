@@ -4,10 +4,10 @@ Denna webbplats är skapad för kursen Grafiska Gränssnitt och Design och visar
 
 ## Huvudfunktioner:
 
-# Responsiv design: Anpassad för både stationära och mobila enheter.
-# Fordonsbeskrivning: Information om de olika transportfordonen och deras användningsområden.
-# Kontakt & Tjänster: Enkel åtkomst till företagets kontaktuppgifter och tjänsteinformation.
-# Familjeföretag: En sektion som presenterar familjen bakom KC Budtransporter AB.
+Responsiv design: Anpassad för både stationära och mobila enheter.
+Fordonsbeskrivning: Information om de olika transportfordonen och deras användningsområden.
+Kontakt & Tjänster: Enkel åtkomst till företagets kontaktuppgifter och tjänsteinformation.
+Familjeföretag: En sektion som presenterar familjen bakom KC Budtransporter AB.
 
 ### Använda teknologier:
 
