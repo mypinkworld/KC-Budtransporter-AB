@@ -21,65 +21,57 @@
         <p>Om oss</p>
     </nav>
 
-        <div class="main-content">
-    <div class="content-box">
-    <p>Vi är ett familjeföretag som erbjuder budtransporter i hela Sverige. Vi har lång erfarenhet och kan garantera att ditt gods kommer fram i tid och i oskadat skick.</p>
-    <p>Vi har en modern fordonsflotta och kan transportera allt från små paket till stora maskiner. Vi har även möjlighet att transportera kylda och frysta gods.</p>
-    <p>Kontakta oss för mer information och priser.</p>
+    <div class="main-content">
+        <div class="content-box">
+            <p>Vi är ett familjeföretag som erbjuder budtransporter i hela Sverige. Vi har lång erfarenhet och kan garantera att ditt gods kommer fram i tid och i oskadat skick.</p>
+            <p>Vi har en modern fordonsflotta och kan transportera allt från små paket till stora maskiner. Vi har även möjlighet att transportera kylda och frysta gods.</p>
+            <p>Kontakta oss för mer information och priser.</p>
 
-    <button> Kontakta oss </button>
-    <button> Orders </button>
+            <button>Kontakta oss</button>
+            <button>Orders</button>
+        </div>
     </div>
-    </div>
+
     <div class="second-header">
-        <h2>Våra bilar</h2>
+        <h2>Våra Fordon</h2>
         <div class="content-text-second">
-            <div class="content-box-image">
-                <div class="content-image-container">
-                    <img class="content-image" src="images/kc-car.gif" alt="Lastbil">
-                </div>
-                <div class="content-box">
-                    Lätta Lastbilar
-                    <p>Med vår Volvo FL erbjuder vi snabba och effektiva budtransporter för mindre och mellanstora laster.</p>
-                    <span id="more1" style="display:none;">
-                        Denna lätta lastbil är perfekt för att smidigt navigera i stadstrafik och leverera dina paket direkt till dörren. Dess avancerade lastningssystem garanterar säker transport av både vanliga och känsliga varor. Oavsett om det gäller dokument, elektronik eller mindre möbler, ser vi till att din leverans når sitt mål snabbt och säkert.
-                    </span>
-                    <div class="button-container">
-                        <button class="expand-button" onclick="toggleText('more1')">Se mer</button>
-                        <button>Priser</button>
-                    </div>
-                    
+            <!-- Första lastbilens innehåll -->
+            <div class="content-box">
+                <img class="content-image" src="images/kc-car.gif" alt="Lastbil">
+                <h3>Lätta Lastbilar</h3>
+                <p>Med vår Volvo FL erbjuder vi snabba och effektiva budtransporter för mindre och mellanstora laster.</p>
+                <span id="more1" style="display:none;">
+                    Denna lätta lastbil är perfekt för att smidigt navigera i stadstrafik och leverera dina paket direkt till dörren. Dess avancerade lastningssystem garanterar säker transport av både vanliga och känsliga varor. Oavsett om det gäller dokument, elektronik eller mindre möbler, ser vi till att din leverans når sitt mål snabbt och säkert.
+                </span>
+                <div class="button-container">
+                    <button class="expand-button" onclick="toggleText('more1')">Se mer</button>
+                    <button>Priser</button>
                 </div>
             </div>
-    
-            <div class="content-box-image">
-                <div class="content-image-container">
-                    <img class="content-image" src="images/kc-car.gif" alt="Lastbil">
-                </div>
-                <div class="content-box">
-                    Kyltransporter
-                    <p>Vår Scania R-serien är utrustad med toppmoderna kyl- och fryssystem, vilket gör den idealisk för transport av kylda eller frysta varor över längre distanser.</p>
-                    <span id="more2" style="display:none;">
-                        Den här lastbilen är byggd för att hålla dina livsmedel, läkemedel och andra temperaturkänsliga produkter i optimalt skick från start till mål. Dess pålitliga prestanda och rymliga lastkapacitet gör den till en värdefull del av vår fordonsflotta för säkra och effektiva leveranser i hela Sverige.
-                    </span>
-                    <div class="button-container">
-                        <button class="expand-button" onclick="toggleText('more1')">Se mer</button>
-                        <button>Priser</button>
-                    </div>
-                    
+
+            <!-- Andra lastbilens innehåll -->
+            <div class="content-box">
+                <img class="content-image" src="images/kc-car.gif" alt="Lastbil">
+                <h3>Kyltransporter</h3>
+                <p>Vår Scania R-serien är utrustad med toppmoderna kyl- och fryssystem, vilket gör den idealisk för transport av kylda eller frysta varor över längre distanser.</p>
+                <span id="more2" style="display:none;">
+                    Den här lastbilen är byggd för att hålla dina livsmedel, läkemedel och andra temperaturkänsliga produkter i optimalt skick från start till mål. Dess pålitliga prestanda och rymliga lastkapacitet gör den till en värdefull del av vår fordonsflotta för säkra och effektiva leveranser i hela Sverige.
+                </span>
+                <div class="button-container">
+                    <button class="expand-button" onclick="toggleText('more2')">Se mer</button>
+                    <button>Priser</button>
                 </div>
             </div>
         </div>
     </div>
-    
-    </script>
+
     <footer>
         <div class="footer-content">
             <!-- Vänster logotyp -->
             <div class="footer-logos-left">
                 <img class="footer-logo" src="images/kc-footer-logo.gif" alt="Logo">
             </div>
-    
+
             <!-- texten -->
             <div class="footer-text">
                 <p>Telefon: 08-123 45 67</p>
@@ -88,13 +80,14 @@
                 <p>Öppettider: Måndag-fredag 08:00-22:00</p>
                 <p>Varmt Välkomna!</p>
             </div>
-    
+
             <!-- Höger logotyp -->
             <div class="footer-logos-right">
                 <img class="footer-logo flip" src="images/kc-footer-logo.gif" alt="Logo">
             </div>
         </div>
     </footer>
+
     <script src="index.js"></script>
 </body>
 </html>
