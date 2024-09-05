@@ -81,20 +81,21 @@ nav p:hover::after {
     flex: 1 1 45%; 
     max-width: 45%;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .content-image {
     width: 200px;
     height: auto;
     display: block;
-    margin: 0 auto 20px; 
+    margin: 0 auto 2px; 
 }
 
 button {
     background-color: #BE1E2D;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -186,6 +187,9 @@ h2 {
     display: flex;
     justify-content: center;
     padding: 10px 0;
+}
+.hamburger-menu {
+    display: none;
 }
 
 @media (max-width: 768px) {
