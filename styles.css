@@ -72,9 +72,11 @@ nav p:hover::after {
 }
 
 .content-image {
-    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px; /* Justera storleken efter behov */
     height: auto;
-    margin-bottom: 20px;
 }
 
 button {
