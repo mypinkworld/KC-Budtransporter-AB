@@ -101,6 +101,13 @@ button {
     margin: 5px; 
 }
 
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; 
+    margin-top: 10px; 
+}
+
 .expand-button {
     background-color: #F26522; /* Orange färg */
     color: white;
