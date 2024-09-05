@@ -70,7 +70,7 @@ nav p:hover::after {
     margin: 0 auto;
     width: 75%;
 }
-
+/* bilen */
 .content-image {
     display: block;
     margin-left: auto;
@@ -192,14 +192,16 @@ h2 {
         flex: 1 1 100%;
         max-width: 100%;
     }
-
     .content-text-second {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 90%;
         flex-direction: column;
         align-items: center;
-    }
-
-    .content-image {
-        margin-right: 0;
     }
 
     .nav-menu {
@@ -225,12 +227,76 @@ h2 {
         display: flex;
     }
 }
+.logo-container {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 40px 0; 
+    padding: 0 20px; 
+}
+
+.logo {
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    object-fit: cover; 
+}
+
+@media (max-width: 640px) {
+    .content-box {
+        width: 90%;
+        padding: 15px;
+    }
+    .content-text-second {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-text {
+        padding: 0 10px;
+    }
+
+    .footer-content {
+        padding: 10px 0 30px 0;
+    }
+    .footer-logos-left, .footer-logos-right {
+        display: none;
+    } 
+    .custom-line {
+        border-top: 2px solid #BE1E2D;
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 100px;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        margin: 40px 0; 
+        padding: 0 20px;
+    }
+    
+    .logo {
+        width: 60px; 
+        height: 60px; 
+        border-radius: 50%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        object-fit: cover; 
+    }
+}
 
 @media (max-width: 375px) {
     body {
-        padding: 10px;
+        padding: 0;
+        margin: 0;
     }
-
     nav {
         flex-direction: column;
         align-items: center;
@@ -242,25 +308,31 @@ h2 {
     }
 
     .content-box {
-        margin: 20px 10px;
+        width: 100%;
+        margin: 0; 
         padding: 15px;
+        box-sizing: border-box; /* Inkluderar padding i bredden */
     }
 
     .content-text {
-        padding: 0 20px;
+        padding: 0 10px; /* Justerar padding för text */
     }
 
     .footer-content {
         flex-direction: column;
-        padding: 0 20px;
+        padding: 0 10px;
         text-align: center;
     }
 
     .footer-text p {
-        margin: 5px 0;
+        margin: 10px;
+    }
+
+    .footer-content {
+        padding: 10px 0 30px 0;
     }
 
     .footer-logos-left, .footer-logos-right {
-        margin: 10px 0;
+        display: none;
     }
 }
