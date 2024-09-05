@@ -55,7 +55,7 @@ nav p:hover::after {
     background-color: #fff;
     width: 80%;
     max-width: 1000px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     margin: 20px auto;
     text-align: left;
@@ -82,7 +82,7 @@ nav p:hover::after {
 button {
     background-color: #BE1E2D;
     color: #fff;
-    border: none;
+    border: 1px solid #000000;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
@@ -101,7 +101,7 @@ button {
 .expand-button {
     background-color: #F26522;
     color: white;
-    border: none;
+    border: 1px solid #000000;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 14px;
@@ -117,7 +117,16 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 }
-
+/* profil bild */
+.profil-image {
+    width: 150px;
+    height: auto;
+    margin: 5px 0; 
+    display: block; 
+    border-radius: 30%;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
 /* symbolen */
 .header-logotype {
     width: 60px;
@@ -185,6 +194,9 @@ h2 {
 .hamburger-menu {
     display: none;
 }
+.custom-line {
+    display: none;
+}
 
 /* Responsiv design för mindre skärmar */
 @media (max-width: 768px) {
@@ -209,7 +221,16 @@ h2 {
         flex-direction: column;
         align-items: center;
     }
-
+/* profil bild */
+.profil-image {
+    width: 100px;
+    height: auto;
+    margin: 5px 0; 
+    display: block; 
+    border-radius: 30%;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
     .hamburger-menu {
         display: block;
         background-color: transparent;
@@ -239,7 +260,7 @@ h2 {
     width: 70px;
     height: 70px; 
     border-radius: 50%; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); 
     object-fit: cover; 
 }
 
@@ -287,7 +308,7 @@ h2 {
         width: 60px; 
         height: 60px; 
         border-radius: 50%; 
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
         object-fit: cover; 
     }
 }
