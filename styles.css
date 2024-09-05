@@ -120,7 +120,7 @@ h2 {
 
 /* symbolen */
 .header-logotype {
-    width: 50px;
+    width: 60px;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -128,7 +128,7 @@ h2 {
 
 /* texten */
 .header-logo {
-    width: 200px;
+    width: 220px;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -291,48 +291,27 @@ h2 {
         object-fit: cover; 
     }
 }
-
 @media (max-width: 375px) {
-    body {
-        padding: 0;
-        margin: 0;
+
+    .custom-line {
+        border-top: 2px solid #BE1E2D;
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 100px;
     }
-    nav {
-        flex-direction: column;
+    .logo-container {
+        display: flex;
+        justify-content: space-around; 
         align-items: center;
+        margin: 40px 0; 
+        padding: 0 20px;
     }
-
-    button {
-        display: block;
-        margin: 10px auto;
-    }
-
-    .content-box {
-        width: 100%;
-        margin: 0; 
-        padding: 15px;
-        box-sizing: border-box; /* Inkluderar padding i bredden */
-    }
-
-    .content-text {
-        padding: 0 10px; /* Justerar padding för text */
-    }
-
-    .footer-content {
-        flex-direction: column;
-        padding: 0 10px;
-        text-align: center;
-    }
-
-    .footer-text p {
-        margin: 10px;
-    }
-
-    .footer-content {
-        padding: 10px 0 30px 0;
-    }
-
-    .footer-logos-left, .footer-logos-right {
-        display: none;
+    
+    .logo {
+        width: 40px; 
+        height: 40px; 
+        border-radius: 50%; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        object-fit: cover; 
     }
 }
