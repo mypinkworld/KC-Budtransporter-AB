@@ -47,20 +47,18 @@ nav p:hover::after {
 .main-content {
     margin-bottom: 30px;
     text-align: center;
+    justify-content: center;
 }
 
 .content-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 20px;
+    background-color: #fff;
+    width: 80%;
+    max-width: 1000px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    background-color: #fff;
-    text-align: center;
-    width: 80%; /* Gör boxen bredare */
-    max-width: 900px;
     margin: 20px auto;
+    text-align: left;
 }
 
 .content-text-second {
@@ -70,6 +68,7 @@ nav p:hover::after {
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    width: 75%;
 }
 
 .content-image {
